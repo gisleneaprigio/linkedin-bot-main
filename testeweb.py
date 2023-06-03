@@ -155,3 +155,8 @@ plt.title('Job Count by Location')
 plt.xticks(rotation=90)
 plt.show()
 
+# Example: Pie chart of job status
+status_counts = df['Status'].value_counts()
+plt.pie(status_counts.values, labels=status_counts.index, autopct='%1.1f%%')
+plt.title('Job Status')
+plt.show()
