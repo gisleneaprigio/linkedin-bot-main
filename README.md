@@ -36,5 +36,23 @@ A análise dos dados coletados pode oferecer insights sobre as tendências e for
 
 ### Resultados
 
+No gráfico da figura abaixo, é possível observar que o algoritmo coletou localizações que podem ser consideradas com redundância como “São Paulo, SP”, “São Paulo, Brasil” e “São Paulo e Região”. Também existem casos de localização em que um registro está contido dentro do outro, como São Paulo e Região” e a cidade de “Barueri”.  
+
+![image](https://github.com/gisleneaprigio/linkedin-bot-main/assets/17745481/66047f68-56f4-4e58-8665-f3f472a89407)
+
+Utilizando a variável “cargo”, é possível observar o universo de palavras utilizadas nos cadastros dos registros, que vão desde palavras ligadas à função, cargo, localização, formato de trabalho e ferramentas utilizadas na vaga, mas ainda com evidência nas palavras utilizadas na pesquisa da vaga.
+
+![image](https://github.com/gisleneaprigio/linkedin-bot-main/assets/17745481/43ace250-4b0a-4138-866d-66f249f1145b)
+
+
+A Figura 8 apresenta a localização, utilizando as 10 primeiras cidades com mais vagas coletadas, assim com o primeiro cenário também podemos verificar que há duplicidade de localização, baseado no cadastro da vaga e agrupamento de cidades como Barueri no conjunto “São Paulo e Região”.
+
+![image](https://github.com/gisleneaprigio/linkedin-bot-main/assets/17745481/0322fd26-14b3-45c6-b4de-1b3bc36b5ba0)
+
+
+
+
+
+
 
  
